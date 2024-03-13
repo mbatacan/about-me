@@ -1,6 +1,6 @@
 
 [tool.poetry]
-name = "[your-repo-name]"
+name = "[lang-chain-vec-db]"
 version = "0.1.0"
 description = "DS Repo Template"
 authors = ["Matt Batacan <mattbatacan@gmail.com>"]
@@ -8,6 +8,9 @@ packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.9.12"
+python-dotenv = "^1.0.1"
+pinecone-client = "^3.1.0"
+langchain = "^0.1.12"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"
