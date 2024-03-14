@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>Resume Query System</h2>
+    <form method="POST">
+        Query: <input type="text" name="query">
+        <input type="submit" value="Submit">
+    </form>
+    {% if results %}
+    <h3>Results:</h3>
+    <ul>
+        {% for result in results %}
+        <li>{{ result }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</body>
+
+</html>

@@ -1,0 +1,205 @@
+Matthew Christopher Batacan
+
+mattbatacan@gmail.com | (808) 798-5492 | linkedin.com/in/matthew-batacan | github.com/mbatacan | mbatacan.github.io
+
+EDUCATION
+Boston University 	 Sep 2020 – Jan 2024
+B.S. Data Science, Minor in Japanese, Cum Laude (GPA: 3.6/4.0)	Boston, MA
+•	Coursework: Machine Learning, Artificial Intelligence, Statistics, Data Engineering, Business Analytics, Data Structures & Algorithms, Multivariable Calculus, Linear Algebra, Data Science in Cryptography, Computer Vision
+
+SKILLS	
+Computer Skills: Python, GitHub, SQL, R, AWS S3, Azure, C, Java, JavaScript, HTML, CSS, OCaml
+Libraries: pandas, scikit-learn, matplotlib, numpy, seaborn, TensorFlow, PyTorch, nimfa, LightGBM, BeautifulSoup
+Skills: Agile Project Management, Jira, Japanese, Data Analysis, Public Speaking, Design Thinking, Trello, Figma
+
+PROFESSIONAL EXPERIENCE
+IBM	May 2023 – Aug 2023
+Data Scientist Intern | 1st Place IBM CIO Intern Showcase	New York, NY
+•	Wrangled 3 billion rows of search logs and CRM data to implement improved search recommendation engine
+•	Implemented matrix factorization to create personalized search recommendations for users on the IBM search engine
+•	Enhanced the algorithm with a custom variant incorporating both long-term and short-term user search behaviors, achieving a 5% boost in search efficacy as gauged by normalized discounted cumulative gain (nDCG)
+•	Enhanced team velocity and productivity by leveraging Jira, orchestrating weekly sprint planning for our ML solution
+
+Genki Spark	Feb 2023 – Feb 2024
+Data Scientist	Remote, US
+•	Spearheaded analytical model development leveraging social determinants of health data to aid clinicians in preventative measures achieving an accuracy rate of 94.3% to identify future patient health outcomes
+•	Collaborated in the creation and presentation of technical details of predictive algorithms to stakeholders, facilitating transparent understanding and informed decision-making
+•	Led bi-weekly synchronization meetings using Agile methods to proactively identify risks and iterate on ML project 
+
+BU Spark!	Aug 2022 – Jan 2024
+Data Science Technical Project Manager	Boston, MA
+•	Led 4-8 student teams per semester for external projects relating to machine learning and data science projects 
+•	Conducted daily code reviews on GitHub for teams’ work to ensure accurate data and models for stakeholders
+•	Utilized Trello to manage project development process following Agile methodologies in a weekly-cycle process
+•	Facilitated cross-functional collaboration among stakeholders, the journalism team, and the data science team to tailor data model development to specific analytical requirements for data-driven news publications
+
+Machine Learning Intern | Demo Day Audience Choice Award	Jan 2023 –May 2023
+•	Deployed face aging GAN to age missing children’s photos to match current age to aid non-profit, Atfal Mafkoda
+•	Constructed a facial recognition app to match new photos of possible missing people to a database of younger pictures
+•	Attained 75% test accuracy to match aged children's photos with recently found images of children
+
+Faculty of Computing & Data Sciences – Boston University	Jan 2022 – Jan 2024
+Data Science Tutor	Boston, MA
+•	Mentored 15+ students a week in practical data science techniques, boosting their grades by an average of 8%
+•	Collaborated weekly with professors to refine coursework, enhancing student understanding of data science concepts
+•	Led weekly office hours on topics in computer science, statistics, linear algebra, machine learning, and data science
+
+LEADERSHIP & VOLUNTEER EXPERIENCE
+Boston University Hawaii Cultural Association	Sep 2020 – Jan 2024
+President 	Boston, MA
+•	Facilitated a $15,000+ budget to organize Hawaiian cultural events to 500+ people in the Boston community
+TechTogether Boston	Jun 2022 – Nov 2022
+Programming Organizer	Boston, MA
+•	Organized 15+ hacker challenges, $10,000 in prizes, and 20+ workshops for 200+ participants during hackathons 
+
+Interests: Outrigger Canoe Paddling, Hiking, TFT, Keyboards, Surfing, Soccer, Basketball, Rock Climbing, Chess
+
+SKILLS & INTERESTS	
+Computer Skills: Python, GitHub, SQL, R, IBM DB2, AWS s3 bucket, Azure, C, Java, JavaScript, HTML, CSS, OCaml
+Libraries: pandas, scikit-learn, matplotlib, numpy, seaborn, TensorFlow, PyTorch, nimfa, LightGBM, BeautifulSoup
+Skills: Agile Project Management, Jira, Japanese, Data Analysis, Public Speaking, Design Thinking, Trello, Figma
+Interests: Passionate about using DS/ML to improve user experiences across various platforms, along with ESG efforts
+
+Languages: Japanese (Working Proficiency), Hawaiian Pidgin (Limited Working Proficiency)
+
+‘Iolani School	Honolulu, HI
+High School Diploma	
+•	School Involvement: Headmaster’s List, Science Olympiad, Varsity Track & Field, Varsity Paddling, ‘Iolani Fair
+•	Conducted code review on GitHub for 9 student teams to maintain deliverables, visualization, and code for clients 
+
+
+TechTogether Boston	Jun 2022 – Nov 2022
+Programming Organizer	Boston, MA
+•	Collaborated with Technical and Sponsorship teams to manage activities and workshops, and $10,000 in awards
+•	Developed 15+ hacker challenges and 20+ workshops for 200+ participants during hackathons
+•	Built an all-inclusive environment for under-represented communities to participate in national hackathons
+
+Coursework: Statistics, Machine Learning, Artificial Intelligence, Databases, Probability, Data Structures & Algorithms
+
+‘Iolani School Family Fair	Aug 2016 – May 2020
+Co-chair of Food Booth		Honolulu. HI
+•	Developed menus, prepared food, recruited volunteers and constructed food stations for 15 hours per week. 
+•	Maintained responsibility for inventory, managing food stations, and upheld customer service 
+
+
+TechTogether Boston	Jun 2022 – Nov 2022
+Programming Organizer	Boston, MA
+•	Collaborated with Technical and Sponsorship teams to manage activities and workshops, and $10,000 in awards
+•	Developed 15+ hacker challenges and 20+ workshops for 200+ participants during hackathons
+•	Built an all-inclusive environment for under-represented communities to participate in national hackathons
+
+
+Link for atfal mafkoda missing children project github repository
+https://github.com/BU-Spark/ml-atfal-mafkoda-missing-children
+
+TechTogether Boston	Jun 2022 – Nov 2022
+Programming Organizer	Boston, MA
+•	Collaborated with Technical and Sponsorship teams to manage activities and workshops, and $10,000 in awards
+•	Developed 15+ hacker challenges and 20+ workshops for 200+ participants during hackathons
+•	Built an all-inclusive environment for under-represented communities to participate in national hackathons
+
+Data Glacier	June 2022 – September 2022
+Data Science Intern	Boston, MA
+•	Produce projects focused on data analysis, machine learning, and deployment for 20 hours per week
+•	Deploy machine learning model examining effectiveness of a pharmaceutical drug on potential users
+
+Boston University, Educational Resource Center	January 2022 – January 2023
+Tutor	Boston, MA
+•	Instruct weekly 1-hour lessons to 10+ students in computer science, statistics, and mathematics
+•	Improve student grades by 15% by developing unique lesson plans tailored to fit the needs of each individual
+
+‘Iolani School Family Fair	August 2016 – August 2020
+Co-chair of Food Booth		Honolulu. HI
+•	Developed menus, prepared food, recruited volunteers, and constructed food stations for 15 hours per week. 
+•	Maintained responsibility of inventory, managing food stations, and upheld customer service 
+
+Hack 4 Impact	January 2022 – May 2022
+Junior Development Team	Boston, MA
+•	Developed software for non-profit organizations utilizing HTML, CSS, and JavaScript
+•	Participated in workshops aimed at advancing knowledge of computer systems and designing individual projects
+
+Atfal Mafkoda – Missing Children Face Aging Generative AI/ Facial Recognition	Jan 2023 – May 2023
+github.com/BU-Spark/ml-atfal-mafkoda-missing-children	
+•	Deployed face aging GAN to age missing children’s photos to match current age to aid volunteers in search
+•	Constructed facial recognition system to match new photos of possible missing people to database of younger pictures
+
+Genki Spark	Feb 2023 – Present
+CTO & Co-Founder	Honolulu, HI
+•	Lead model development leveraging social determinants of health for to aid clinicians in preventative healthcare
+•	Oversee Engineering and Design Team on model and app development using Agile methods on a biweekly cycle
+•	Presented to stakeholders at the University of Hawaii Venture Competition during the semi-final round
+
+PROJECTS
+Atfal Mafkoda – Missing Children Face Aging Generative AI/ Facial Recognition	Jan 2023 – May 2023
+github.com/BU-Spark/ml-atfal-mafkoda-missing-children	
+•	Deployed face aging GAN to age missing children’s photos to match current age to aid volunteers in search
+•	Constructed facial recognition system to match new photos of possible missing people to database of younger pictures
+
+BostonHacks – Student Performance Machine Learning Model	April 2022
+•	Built ML model using scikit-learn, implementing a decision tree model to predict students’ performance
+•	Conducted EDA on raw data set to determine variables noteworthy of having an impact on student performance
+
+
+
+IBM	May 2023 – Aug 2023
+Data Scientist Intern | 1st Place IBM CIO Intern Showcase	New York, NY
+•	Wrangled 3 billion rows of raw search log data and joined CRM data to build a search engine recommendation model
+•	Created 13 company interest profiles to boost search results based on a companies’ IBM products and search history 
+•	Deployed machine learning models on IBM search engine resulting in a 4.8% improvement in search result relevance
+•	Enhanced team velocity and productivity by leveraging Jira, orchestrating weekly sprint planning for our ML solution
+
+IBM	May 2023 – Present
+Data Science Intern	New York, NY
+•	Implemented machine learning models to create a personalized user experience for IBM's search platform
+•	Conducted thorough rank-aware evaluation using NCDG metrics to quantitatively impact to stakeholders
+•	Wrangled 1.5 billion rows of raw search log data and joined multiple data sources to create user interest profiles
+•	Led weekly meetings following an Agile structure using 1 week sprints to iterate on features for project goals
+•	Worked on the data science team to create a personalized user search experience on the IBM.com search engine
+•	Implemented machine learning models to create a personalized user experience for IBM's search platform
+•	Conducted weekly meetings following an Agile framework to iteratively develop project features for our project goals
+
+IBM	May 2023 – Aug 2023
+Data Scientist Intern | 1st Place IBM CIO Intern Showcase	New York, NY
+•	Wrangled 3 billion rows of search logs and CRM data to implement improved search recommendation engine
+•	Implemented matrix factorization algorithm to create personalized search recommendations on the IBM search engine
+•	Enhanced the algorithm with a custom variant considering incorporating both long-term and short-term user search behaviors, achieving a 5% boost in search efficacy as gauged by normalized discounted cumulative gain (NDCG).
+•	Enhanced team velocity and productivity by leveraging Jira, orchestrating weekly sprint planning for our ML solution
+
+
+BU Spark!	Aug 2022 – Present
+ML Engineer & Technical Project Manager | August 2023 – Present	Boston, MA
+•	Manage 8 data science projects for 2 external projects on student academic performance and police overtime work
+•	Conduct code review on GitHub for 40+ students’ work to maintain deliverables, visualization, and code for clients 
+•	Guide weekly labs and discussions using the Agile framework to iterate on stakeholders' data science projects 
+
+Technical Engineer | Jan 2023 – August 2023		
+•	Published 5 data-driven articles on government spending, police use-of-force data, and redlined communities
+•	Conducted code review for 15+ students’ work to maintain deliverables across 5 data science projects for clients
+•	Led students regarding design, architecture, and approach to analytical problems pertaining to clients’ questions
+
+Machine Learning Intern | Jan 2023 – May 2023	
+•	Deployed face aging GAN to age missing children’s photos to match current age to aid non-profit, Atfal Mafkoda
+•	Constructed facial recognition system to match new photos of possible missing people to database of younger pictures
+•	Attained 75% accuracy by aging a photo to match a previously identified child in facial recognition testing
+
+Project Manager | Aug 2022 – Jan 2023	
+•	Led problem-solving and resource management for computational journalism projects from external media partners
+•	Managed stakeholders to ensure client satisfaction with student work and provided supportive feedback to students
+•	Oversaw data science projects for 10+ stakeholders and led weekly planning to ensure quality deliverables for articles
+
+
+BU Spark!	Aug 2022 – Jan 2024
+Technical Project Manager	Boston, MA
+•	Lead 4-8 student teams a semester for external stakeholders pertaining to machine learning and data science projects 
+•	Conduct code review on GitHub for 40+ students’ work to ensure accurate data and models presented to stakeholders
+•	Implemented Agile Methodology to manage data science project development life cycle, ensure on-time delivery of project and meeting quality standards.
+
+IBM experience Notes
+Numbers of how to quantify what we have done
+Skills: Github, jira, python
+Working with stakeholders, executive level stakeholders
+CIO showcase
+"Worked on an Agile team..."
+you also did your own sprint planning/ story writing while working on agile teams
+NDCG metric add the impact
+
