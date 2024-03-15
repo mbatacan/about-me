@@ -19,7 +19,7 @@ from src.fields import (
 if USE_SERVERLESS:
     spec = ServerlessSpec(cloud='aws', region='us-west-2')
 else:
-    spec = PodSpec(environment=PINECONE_ENVIRONMENT)
+    spec = PodSpec(environment=PINECONE_ENVIRONMENT)  # type: ignore
 
 # %%
 pc = Pinecone(api_key=PINECONE_API_KEY)
@@ -34,7 +34,7 @@ docs = text_splitter.split_documents(documents)
 # %%
 
 embeddings = HuggingFaceInferenceAPIEmbeddings(
-    api_key=HF_API_KEY, model_name="sentence-transformers/all-MiniLM-l6-v2"
+    api_key=HF_API_KEY, model_name="sentence-transformers/all-MiniLM-l6-v2"  # type: ignore
 )
 
 docsearch = PineconeVectorStore.from_documents(docs, embeddings, index_name=index_name)

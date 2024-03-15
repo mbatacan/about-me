@@ -15,7 +15,7 @@ class PineConnect:
             spec = ServerlessSpec(cloud='aws', region='us-west-2')
         else:
             # if not using a starter index, you should specify a pod_type too
-            spec = PodSpec(environment=f.PINECONE_ENVIRONMENT)
+            spec = PodSpec(environment=f.PINECONE_ENVIRONMENT)  # type: ignore
 
         # check for and delete index if already exists
         index_name = 'about-me'
