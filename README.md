@@ -14,6 +14,7 @@ To start, install the required and recommended libraries.
 ```bash
 poetry install
 ```
+3. Create a .env file with pinecone, huggingface, and openai api keys.
 
 ### Contributing
 
