@@ -15,6 +15,7 @@ To start, install the required and recommended libraries.
 poetry install
 ```
 3. Create a .env file with pinecone, huggingface, and openai api keys.
+4. in data folder, upload a text file called about_me.txt for bot to read.
 
 ### Contributing
 
