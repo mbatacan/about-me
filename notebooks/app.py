@@ -15,7 +15,7 @@ client = DBConnect(f.PINECONE_API_KEY)  # type: ignore
 index_name = "about-me"
 index = client.pc.Index(index_name)
 # todo implement adding new text through website
-vdb = ETL('../data/resume.txt')
+vdb = ETL('../data/about_me.txt')
 qa = AboutMeBot(vdb.vec_store)
 
 
