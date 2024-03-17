@@ -1,5 +1,5 @@
-# lang chain + vector db learning
-
+# about-me
+## chat bot to help you write about yourself when you are lazy
 🚧 Under construction 🚧
 
 ## Quick Start
