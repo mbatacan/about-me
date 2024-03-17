@@ -1,20 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>about-me</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
 
 <body>
-    <h2>Resume Query System</h2>
-    <form method="POST">
-        Query: <input type="text" name="query">
-        <input type="submit" value="Submit">
+    <h1>about-me</h1>
+    <p>when you are lazy to answer quesitons about yourself</p>
+    <form action="/" method="post">
+        <input type="text" name="query" placeholder="Enter your question here">
+        <button type="submit">Ask</button>
     </form>
-    {% if results %}
-    <h3>Results:</h3>
-    <ul>
-        {% for result in results %}
-        <li>{{ result }}</li>
+    <div class="chat-history" id="chat-history">
+        {% for chat in history %}
+        <div class="message user-msg">
+            <h2>You:</h2>
+            <p>{{ chat.query }}</p>
+        </div>
+        <div class="message chatbot-msg">
+            <h2>Chatbot:</h2>
+            <p>{{ chat.response }}</p>
+        </div>
         {% endfor %}
-    </ul>
-    {% endif %}
+    </div>
+
+    <script>
+        // When the page is fully loaded, scroll the chat-history div to the bottom
+        window.onload = function () {
+            var chatHistory = document.getElementById("chat-history");
+            chatHistory.scrollTop = chatHistory.scrollHeight;
+        };
+    </script>
+
 </body>
 
 </html>

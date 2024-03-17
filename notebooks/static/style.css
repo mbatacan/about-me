@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.chat-history {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 350px;
+    height: 300px;
+    overflow-y: auto;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.message {
+    margin-bottom: 20px;
+}
+
+.message h2 {
+    color: #333;
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.message p {
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+/* Add this if you want to differentiate the chatbot messages */
+.chatbot-msg {
+    background-color: #e9ecef;
+}
+
+.user-msg {
+    background-color: #007bff;
+    color: rgb(0, 0, 0);
+}

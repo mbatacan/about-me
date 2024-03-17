@@ -19,5 +19,5 @@ class AboutMeBot:
         return qa
 
     def query(self, question: str) -> str:
-        result = self.qa.run(question)
+        result = self.qa.invoke(question)
         return result
