@@ -6,6 +6,7 @@ import src.fields as f
 class AboutMeBot:
     def __init__(self, vdb) -> None:
         self.vdb = vdb
+        self.initial_prompt = "You are a professional job-hunting counselor. You will be helping to answer questions for your client. Answer with the details about the client you are given in the vector store given."
         self.qa = self._chat_bot_init()
 
     def _chat_bot_init(self):
@@ -19,5 +20,10 @@ class AboutMeBot:
         return qa
 
     def query(self, question: str) -> str:
-        result = self.qa.invoke(question)
+        # Prepend the initial prompt to the user's question
+        full_query = self.initial_prompt + " " + question
+
+        # Invoke the QA chain with the full query
+        result = self.qa.invoke(full_query)
+
         return result
