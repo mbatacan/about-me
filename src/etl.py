@@ -14,7 +14,7 @@ class ETL:
         self.vec_store = self._embed_docs()
 
     def _create_docs(self, filepath):
-        loader = TextLoader("../data/resume.txt")
+        loader = TextLoader(filepath)
         documents = loader.load()
         text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
         docs = text_splitter.split_documents(documents)
