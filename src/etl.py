@@ -3,7 +3,6 @@ from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import CharacterTextSplitter
 from langchain_pinecone import PineconeVectorStore
 import src.fields as f
-from typing import Union
 
 
 class ETL:
@@ -40,5 +39,6 @@ class ETL:
         """
         Takes in text to be added to current vdb
         """
-
+        docs = TextLoader(text)
+        self.vec_store.add_documents(docs)
         return self.vec_store
