@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, session
+from flask import Flask, request, render_template, session, redirect, url_for
 from flask_session import Session
 from src.query import AboutMeBot
 from src.db_connect import DBConnect
@@ -7,6 +7,7 @@ from src.etl import ETL
 
 app = Flask(__name__)
 app.config["SESSION_PERMANENT"] = False
+app.config['SECRET_KEY'] = f.SECRET_KEY
 app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
@@ -14,9 +15,16 @@ Session(app)
 client = DBConnect(f.PINECONE_API_KEY)  # type: ignore
 index_name = "about-me"
 index = client.pc.Index(index_name)
+
 # todo implement adding new text through website
 vdb = ETL('../data/about_me.txt')
 qa = AboutMeBot(vdb.vec_store)
+
+
+@app.route('/reset')
+def reset_session():
+    session.clear()  # Clear the entire session
+    return redirect(url_for('home'))
 
 
 @app.route('/', methods=['GET', 'POST'])
