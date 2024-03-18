@@ -3,6 +3,7 @@ from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import CharacterTextSplitter
 from langchain_pinecone import PineconeVectorStore
 import src.fields as f
+from typing import Union
 
 
 class ETL:
@@ -13,7 +14,13 @@ class ETL:
         self.docs = self._create_docs(file_path)
         self.vec_store = self._embed_docs()
 
-    def _create_docs(self, filepath):
+    def _create_docs(self, filepath: str):
+        """
+        create document objects to be uploaded to vectorstore
+
+        Input - filepath:str
+        Output - docs: list[Documents]
+        """
         loader = TextLoader(filepath)
         documents = loader.load()
         text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
@@ -28,3 +35,10 @@ class ETL:
             self.docs, embeddings, index_name='about-me'
         )
         return vec_store
+
+    def _add_new_docs(self, text: str) -> PineconeVectorStore:
+        """
+        Takes in text to be added to current vdb
+        """
+
+        return self.vec_store
