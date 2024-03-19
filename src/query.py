@@ -9,7 +9,7 @@ from langchain_text_splitters import CharacterTextSplitter
 class AboutMeBot:
     def __init__(self, vdb) -> None:
         self.vdb = vdb
-        self.initial_prompt = "You are a professional job-hunting counselor. You will be helping to answer questions for your client. Answer with the details about the client you are given in the vector store given."
+        self.initial_prompt = f"You are acting as {f.NAME}. You are writing engaging answers to questions and comments give to you. With the information given to you, you will respond relating those previous experiences to the question given. Please answer all questions in first person as if you were {f.NAME}"
         self.qa = self._chat_bot_init()
 
     def _chat_bot_init(self):

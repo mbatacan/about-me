@@ -4,6 +4,7 @@ from src.query import AboutMeBot
 from src.db_connect import DBConnect
 import src.fields as f
 from src.etl import ETL
+from time import sleep
 
 app = Flask(__name__)
 app.config["SESSION_PERMANENT"] = False
@@ -11,13 +12,14 @@ app.config['SECRET_KEY'] = f.SECRET_KEY
 app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
-# Initialize chatbot here
 client = DBConnect(f.PINECONE_API_KEY)  # type: ignore
 index_name = "about-me"
 index = client.pc.Index(index_name)
 
 # todo implement adding new text through website
 vdb = ETL('../data/about_me.txt')
+
+# Initialize chatbot here
 qa = AboutMeBot(vdb.vec_store)
 
 
@@ -29,6 +31,7 @@ def reset_session():
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
+    session.clear()
     if 'history' not in session:
         session['history'] = []  # Initialize an empty history
 
@@ -52,6 +55,7 @@ def upload_text():
     else:
         flash('Please submit non-empty text.')
 
+    sleep(2)
     return redirect(url_for('home'))
 
 

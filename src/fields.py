@@ -10,3 +10,4 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 USE_SERVERLESS = False
 EMBEDDING_SIZE = 384
 SECRET_KEY = os.getenv("SECRET_KEY")
+NAME = "Matthew Batacan"
