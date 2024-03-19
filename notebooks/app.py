@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, session, redirect, url_for
+from flask import Flask, request, render_template, session, redirect, url_for, flash
 from flask_session import Session
 from src.query import AboutMeBot
 from src.db_connect import DBConnect
@@ -23,7 +23,7 @@ qa = AboutMeBot(vdb.vec_store)
 
 @app.route('/reset')
 def reset_session():
-    session.clear()  # Clear the entire session
+    session.clear()
     return redirect(url_for('home'))
 
 
@@ -41,6 +41,18 @@ def home():
         session.modified = True  # To notify the session that we modified it
 
     return render_template('index.html', history=session['history'])
+
+
+@app.route('/upload-text', methods=['POST'])
+def upload_text():
+    new_text = request.form['new_text']
+    if new_text.strip():
+        qa._add_new_docs(new_text)
+        flash('New text has been added successfully.')
+    else:
+        flash('Please submit non-empty text.')
+
+    return redirect(url_for('home'))
 
 
 if __name__ == '__main__':

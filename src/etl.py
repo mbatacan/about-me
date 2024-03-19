@@ -34,11 +34,3 @@ class ETL:
             self.docs, embeddings, index_name='about-me'
         )
         return vec_store
-
-    def _add_new_docs(self, text: str) -> PineconeVectorStore:
-        """
-        Takes in text to be added to current vdb
-        """
-        docs = TextLoader(text)
-        self.vec_store.add_documents(docs)
-        return self.vec_store

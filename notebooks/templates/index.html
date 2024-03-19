@@ -33,6 +33,8 @@
         {% endfor %}
     </div>
 
+
+
     <script>
 
         window.onload = function () {
@@ -40,6 +42,13 @@
             chatHistory.scrollTop = chatHistory.scrollHeight;
         };
     </script>
+
+    <!-- Existing content -->
+    <form action="/upload-text" method="post">
+        <textarea name="new_text" placeholder="Paste new text here..." rows="4" cols="50"></textarea>
+        <button type="submit">Upload Text</button>
+    </form>
+
 </body>
 
 </html>
