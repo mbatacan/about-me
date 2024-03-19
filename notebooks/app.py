@@ -31,7 +31,6 @@ def reset_session():
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
-    session.clear()
     if 'history' not in session:
         session['history'] = []  # Initialize an empty history
 
@@ -55,7 +54,6 @@ def upload_text():
     else:
         flash('Please submit non-empty text.')
 
-    sleep(2)
     return redirect(url_for('home'))
 
 
