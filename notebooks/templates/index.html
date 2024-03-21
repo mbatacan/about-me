@@ -5,16 +5,30 @@
     <meta charset="UTF-8">
     <title>about-me</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-
 </head>
 
 <body>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <ul class="flashes">
+        {% for message in messages %}
+        <li>{{ message }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    {% endwith %}
     <h1>about-me</h1>
-    <p>when you are lazy to answer quesitons about yourself</p>
+    <p>when you are lazy to answer questions about yourself</p>
     <form action="/" method="post">
         <input type="text" name="query" placeholder="Enter your question here">
         <button type="submit">Ask</button>
     </form>
+
+    <!-- Add this form for the reset button -->
+    <form action="/reset" method="get">
+        <button type="submit">Reset Chat History</button>
+    </form>
+
     <div class="chat-history" id="chat-history">
         {% for chat in history %}
         <div class="message user-msg">
@@ -28,13 +42,21 @@
         {% endfor %}
     </div>
 
+
+
     <script>
-        // When the page is fully loaded, scroll the chat-history div to the bottom
+
         window.onload = function () {
             var chatHistory = document.getElementById("chat-history");
             chatHistory.scrollTop = chatHistory.scrollHeight;
         };
     </script>
+
+    <!-- Existing content -->
+    <form action="/upload-text" method="post">
+        <textarea name="new_text" placeholder="Paste new text here..." rows="4" cols="50"></textarea>
+        <button type="submit">Upload Text</button>
+    </form>
 
 </body>
 

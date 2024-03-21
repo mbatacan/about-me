@@ -13,7 +13,13 @@ class ETL:
         self.docs = self._create_docs(file_path)
         self.vec_store = self._embed_docs()
 
-    def _create_docs(self, filepath):
+    def _create_docs(self, filepath: str):
+        """
+        create document objects to be uploaded to vectorstore
+
+        Input - filepath:str
+        Output - docs: list[Documents]
+        """
         loader = TextLoader(filepath)
         documents = loader.load()
         text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
