@@ -8,56 +8,66 @@
 </head>
 
 <body>
-    {% with messages = get_flashed_messages() %}
-    {% if messages %}
-    <ul class="flashes">
-        {% for message in messages %}
-        <li>{{ message }}</li>
-        {% endfor %}
-    </ul>
-    {% endif %}
-    {% endwith %}
-    <h1>about-me</h1>
-    <p>when you are lazy to answer questions about yourself</p>
-    <form action="/" method="post">
-        <input type="text" name="query" placeholder="Enter your question here">
-        <button type="submit">Ask</button>
-    </form>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <!-- Place sidebar content here -->
+            <h1>about-me</h1>
+            <p>when you are lazy to answer questions about yourself</p>
+            <form action="/reset" method="get">
+                <button type="submit">Reset Chat History</button>
+            </form>
 
-    <!-- Add this form for the reset button -->
-    <form action="/reset" method="get">
-        <button type="submit">Reset Chat History</button>
-    </form>
+            <form action="/upload-text" method="post">
+                <textarea name="new_text" placeholder="Paste new text here..." rows="4" cols="50"></textarea>
+                <button type="submit">Upload Text</button>
+            </form>
+        </div>
 
-    <div class="chat-history" id="chat-history">
-        {% for chat in history %}
-        <div class="message user-msg">
-            <h2>You:</h2>
-            <p>{{ chat.query }}</p>
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Display Flash Messages -->
+            {% with messages = get_flashed_messages() %}
+            {% if messages %}
+            <ul class="flashes">
+                {% for message in messages %}
+                <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% endwith %}
+
+            <!-- Chat history and input form -->
+            <div class="chat-interface">
+
+                <div class="chat-history" id="chat-history">
+                    {% for chat in history %}
+                    <div class="message user-msg">
+                        <h2>You:</h2>
+                        <p>{{ chat.query }}</p>
+                    </div>
+                    <div class="message chatbot-msg">
+                        <h2>Chatbot:</h2>
+                        <p>{{ chat.response }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+                <form action="/" method="post">
+                    <input type="text" name="query" placeholder="Enter your question here">
+                    <button type="submit">Ask</button>
+                </form>
+            </div>
+
+
         </div>
-        <div class="message chatbot-msg">
-            <h2>Chatbot:</h2>
-            <p>{{ chat.response }}</p>
-        </div>
-        {% endfor %}
     </div>
 
-
-
     <script>
-
         window.onload = function () {
             var chatHistory = document.getElementById("chat-history");
             chatHistory.scrollTop = chatHistory.scrollHeight;
         };
     </script>
-
-    <!-- Existing content -->
-    <form action="/upload-text" method="post">
-        <textarea name="new_text" placeholder="Paste new text here..." rows="4" cols="50"></textarea>
-        <button type="submit">Upload Text</button>
-    </form>
-
 </body>
 
 </html>
