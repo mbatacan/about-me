@@ -13,6 +13,29 @@ h1 {
     margin-bottom: 20px;
 }
 
+#prompt-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background: transparent;
+
+}
+
+#prompt-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: calc(100% - 20px);
+    min-height: 50px;
+    overflow-y: hidden;
+    resize: none;
+}
+
+
 form {
     margin-bottom: 20px;
 }
@@ -22,7 +45,7 @@ input[type="text"] {
     border-radius: 5px;
     border: 1px solid #ddd;
     margin-right: 10px;
-    width: 300px;
+    width: 600px;
 }
 
 button {
@@ -129,7 +152,6 @@ html {
 
 textarea {
     width: 100%;
-    /* Make the textarea full width of the sidebar */
     margin-bottom: 10px;
-    /* Add some margin below the textarea */
+
 }

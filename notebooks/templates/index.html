@@ -52,22 +52,41 @@
                     </div>
                     {% endfor %}
                 </div>
-                <form action="/" method="post">
-                    <input type="text" name="query" placeholder="Enter your question here">
+
+                <form action="/" method="post" id="prompt-form">
+                    <textarea id="prompt-input" name="query" placeholder="Enter your question here"
+                        oninput="autoResizeTextarea(this)"></textarea>
                     <button type="submit">Ask</button>
                 </form>
+
             </div>
 
 
         </div>
     </div>
 
+
+
+
     <script>
+        function autoResizeTextarea(textarea) {
+            textarea.style.height = 'auto'; // Reset the height
+            textarea.style.height = (textarea.scrollHeight) + 'px'; // Set to the current scroll height
+        }
+
         window.onload = function () {
             var chatHistory = document.getElementById("chat-history");
             chatHistory.scrollTop = chatHistory.scrollHeight;
+
+            // Automatically resize the textarea on page load if it contains text
+            var promptInput = document.getElementById('prompt-input');
+            if (promptInput.scrollHeight > promptInput.clientHeight) {
+                autoResizeTextarea(promptInput);
+            }
         };
     </script>
+
+
 </body>
 
 </html>
