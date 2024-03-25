@@ -4,7 +4,6 @@ from src.query import AboutMeBot
 from src.db_connect import DBConnect
 import src.fields as f
 from src.etl import ETL
-from time import sleep
 
 app = Flask(__name__)
 app.config["SESSION_PERMANENT"] = False

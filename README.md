@@ -20,7 +20,7 @@ poetry install
 5. **Note**: Still testing application. Currently in the notebooks directory to run app after adding needed keys and docs, run:
 
 ```bash
-cd notebooks
+cd app
 flask run
 ```
 
@@ -31,7 +31,7 @@ Before committing anything to the repository, set up our pre-commit hooks:
 ```bash
 pre-commit install
 ```
-
+ 
 ### VSCode Extensions
 
 - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python): IntelliSense (Pylance), Linting, Debugging (multi-threaded, remote), Jupyter Notebooks, code
