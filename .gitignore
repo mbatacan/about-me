@@ -2,4 +2,4 @@
 poetry.lock
 data/about_me.txt
 __pycache__
-notebooks/flask_session/
+app/flask_session/
