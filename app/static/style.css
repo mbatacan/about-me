@@ -102,11 +102,8 @@ html {
 .container {
     display: flex;
     height: 100vh;
-    /* Full viewport height */
     width: 100%;
-    /* Full viewport width */
     overflow: hidden;
-    /* Prevents unwanted scrolling */
 }
 
 .sidebar {
@@ -135,7 +132,6 @@ html {
     align-items: center;
     width: 100%;
     max-width: 800px;
-    /* Or however wide you want it */
 }
 
 .chat-history {
