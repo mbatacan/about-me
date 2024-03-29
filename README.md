@@ -17,7 +17,7 @@ poetry install
 3. Create a .env file with pinecone, huggingface, and openai api keys.
 4. in data folder, upload a text file called about_me.txt for bot to read.
 
-5. **Note**: Still testing application. Currently in the notebooks directory to run app after adding needed keys and docs, run:
+5. **Note**: Still testing application. Currently in the app directory to run app after adding needed keys and docs, run:
 
 ```bash
 cd app

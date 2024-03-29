@@ -3,3 +3,4 @@ poetry.lock
 data/about_me.txt
 __pycache__
 app/flask_session/
+app/__pycache__/
