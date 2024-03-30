@@ -31,7 +31,7 @@ class AboutMeBot:
         self.vdb.add_documents(docs)
         return self.vdb
 
-    def query(self, question: str) -> str:
+    def query(self, question: str) -> dict:
         # Prepend the initial prompt to the user's question
         full_query = self.initial_prompt + " " + question
 

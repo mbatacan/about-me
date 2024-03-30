@@ -1,0 +1,6 @@
+Follow these steps to submit your assignment:
+1. Download this file to your computer, or create a new text file
+2. Paste the link to the W&B report you created with lessons learned in the course
+3. Save the file with the link and upload it in the "Submit your assignment" section
+
+Link to your W&B report: [paste here]

@@ -19,6 +19,7 @@ langchain-pinecone = "^0.0.3"
 langchain-openai = "^0.0.8"
 flask = "^3.0.2"
 flask-session = "^0.6.0"
+wandb = "^0.16.5"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"

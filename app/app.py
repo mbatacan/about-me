@@ -4,6 +4,8 @@ from src.query import AboutMeBot
 from src.db_connect import DBConnect
 import src.fields as f
 from src.etl import ETL
+import wandb
+
 
 app = Flask(__name__)
 app.config["SESSION_PERMANENT"] = False
@@ -36,7 +38,9 @@ def home():
     if request.method == 'POST':
         user_query = request.form['query']  # Get the user's query from the form input
         response = qa.query(user_query)  # Query your chatbot
-
+        wandb.log(
+            {"user_message": user_query, "bot_response": response['result']}
+        )  # Fix: Access 'result' using square bracket notation
         # Append the user query and bot response to the history
         session['history'].append({'query': user_query, 'response': response['result']})  # type: ignore
         session.modified = True  # To notify the session that we modified it
@@ -57,4 +61,5 @@ def upload_text():
 
 
 if __name__ == '__main__':
+    wandb.init(project='about-me-chatbot', entity='flask-chatbot')
     app.run(debug=True)
