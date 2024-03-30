@@ -12,6 +12,10 @@ app.config["SESSION_PERMANENT"] = False
 app.config['SECRET_KEY'] = f.SECRET_KEY
 app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
+wandb.init(
+    project='about-me-chatbot',
+    config={'openai_api_key': f.OPENAI_API_KEY, 'pinecone_api_key': f.PINECONE_API_KEY},
+)
 
 client = DBConnect(f.PINECONE_API_KEY)  # type: ignore
 index_name = "about-me"
@@ -61,5 +65,4 @@ def upload_text():
 
 
 if __name__ == '__main__':
-    wandb.init(project='about-me-chatbot', entity='flask-chatbot')
     app.run(debug=True)
