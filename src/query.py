@@ -1,7 +1,6 @@
 from langchain_openai import ChatOpenAI
 from langchain.chains import RetrievalQA
 import src.fields as f
-from langchain_community.document_loaders import TextLoader
 from langchain_pinecone import PineconeVectorStore
 from langchain_text_splitters import CharacterTextSplitter
 
@@ -9,7 +8,19 @@ from langchain_text_splitters import CharacterTextSplitter
 class AboutMeBot:
     def __init__(self, vdb) -> None:
         self.vdb = vdb
-        self.initial_prompt = f"You are acting as {f.NAME}. You are writing engaging answers to questions and comments give to you. With the information given to you, you will respond relating those previous experiences to the question given. Please answer all questions in first person as if you were {f.NAME}"
+        self.initial_prompt = f"You are acting as {f.NAME}.\
+            You have a professional at answering questions to tailor to a specific company.\
+            You are writing engaging answers to questions and comments given to you. \
+            With the information given to you, you will respond relating those previous experiences to the question given.\
+            Please answer all questions in first person as if you were {f.NAME}. \
+            When you answer, be sure to provide a detailed response including examples from your past experiences.\
+            Below I will outline sample questions you might get:\
+            you will be asked questions like 'Why would you like to work at company X?' and you will respond with 'I would like to work at company X because...'\
+            \
+            'What are your strengths?' and you will respond with 'My strengths are...'\
+            'What are your weaknesses?' and you will respond with 'My weaknesses are...'\
+            'What about this role excites you?' and you will respond with 'This role excites me because...'\
+            'What about company X excites you?' and you will respond with 'Company X excites me because...'"
         self.qa = self._chat_bot_init()
 
     def _chat_bot_init(self):
