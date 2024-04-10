@@ -4,7 +4,6 @@ from src.query import AboutMeBot
 from src.db_connect import DBConnect
 import src.fields as f
 from src.etl import ETL
-import wandb
 
 
 app = Flask(__name__)
@@ -38,7 +37,6 @@ def home():
     if request.method == 'POST':
         user_query = request.form['query']  # Get the user's query from the form input
         response = qa.query(user_query)  # Query your chatbot
-        wandb.log({"user_message": user_query, "bot_response": response['result']})
         session['history'].append({'query': user_query, 'response': response['result']})  # type: ignore
         session.modified = True
 
@@ -58,5 +56,4 @@ def upload_text():
 
 
 if __name__ == '__main__':
-    wandb.init(project='about-me-chatbot', entity='flask-chatbot')
     app.run(debug=True)

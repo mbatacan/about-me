@@ -26,7 +26,7 @@ flask run
 
 ### Contributing
 
-Before committing anything to the repository, set up our pre-commit hooks:
+Before committing anything to the repository, set up pre-commit hooks:
 
 ```bash
 pre-commit install
