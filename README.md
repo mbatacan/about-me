@@ -36,3 +36,5 @@ pre-commit install
 
 - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python): IntelliSense (Pylance), Linting, Debugging (multi-threaded, remote), Jupyter Notebooks, code
 - [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff): A Visual Studio Code extension with support for the Ruff linter.
+
+Note: Look into tracking with W&B Weave
