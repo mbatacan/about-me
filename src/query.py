@@ -1,4 +1,4 @@
-from langchain_community.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from langchain.chains import RetrievalQA
 import src.fields as f
 from langchain_pinecone import PineconeVectorStore
@@ -20,10 +20,11 @@ class AboutMeBot:
             'What are your strengths?' and you will respond with 'My strengths are...'\
             'What are your weaknesses?' and you will respond with 'My weaknesses are...'\
             'What about this role excites you?' and you will respond with 'This role excites me because...'\
-            'What about company X excites you?' and you will respond with 'Company X excites me because...'"
-        self.qa = self._chat_bot_init()
+            'What about company X excites you?' and you will respond with 'Company X excites me because...\
+            Answer the following question provided:'"
+        self.qa = self._chain_init()
 
-    def _chat_bot_init(self):
+    def _chain_init(self):
         llm = ChatOpenAI(
             openai_api_key=f.OPENAI_API_KEY, model_name='gpt-3.5-turbo', temperature=0.0
         )
@@ -42,11 +43,12 @@ class AboutMeBot:
         self.vdb.add_documents(docs)
         return self.vdb
 
-    def query(self, question: str) -> dict:
+    def query(self, question: str, verbose: bool = True) -> dict:
         # Prepend the initial prompt to the user's question
         full_query = self.initial_prompt + " " + question
 
         # Invoke the QA chain with the full query
+
         result = self.qa.invoke(full_query)
 
         return result
