@@ -1,4 +1,4 @@
-from langchain_openai import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA
 import src.fields as f
 from langchain_pinecone import PineconeVectorStore

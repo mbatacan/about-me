@@ -1,0 +1,277 @@
+Matthew Christopher Batacan
+
+linkedin.com/in/matthew-batacan | github.com/mbatacan | mbatacan.github.io
+
+EDUCATION
+Boston University 	 Sep 2020 – Jan 2024
+B.S. Data Science, Minor in Japanese, Cum Laude (GPA: 3.6/4.0)	Boston, MA
+•	Coursework: Machine Learning, Artificial Intelligence, Statistics, Data Engineering, Business Analytics, Data Structures & Algorithms, Multivariable Calculus, Linear Algebra, Data Science in Cryptography, Computer Vision
+
+SKILLS
+Computer Skills: Python, GitHub, SQL, R, AWS S3, Azure, C, Java, JavaScript, HTML, CSS, OCaml
+Libraries: pandas, scikit-learn, matplotlib, numpy, seaborn, TensorFlow, PyTorch, nimfa, LightGBM, BeautifulSoup
+Skills: Agile Project Management, Jira, Japanese, Data Analysis, Public Speaking, Design Thinking, Trello, Figma
+
+PROFESSIONAL EXPERIENCE
+IBM	May 2023 – Aug 2023
+Data Scientist Intern | 1st Place IBM CIO Intern Showcase	New York, NY
+•	Wrangled 3 billion rows of search logs and CRM data to implement improved search recommendation engine
+•	Implemented matrix factorization to create personalized search recommendations for users on the IBM search engine
+•	Enhanced the algorithm with a custom variant incorporating both long-term and short-term user search behaviors, achieving a 5% boost in search efficacy as gauged by normalized discounted cumulative gain (nDCG)
+•	Enhanced team velocity and productivity by leveraging Jira, orchestrating weekly sprint planning for our ML solution
+
+Genki Spark	Feb 2023 – Feb 2024
+Stealth Startup	Remote, US
+•	Spearheaded analytical model development leveraging social determinants of health data to aid clinicians in preventative measures achieving an accuracy rate of 94.3% to identify future patient health outcomes
+•	Collaborated in the creation and presentation of technical details of predictive algorithms to stakeholders, facilitating transparent understanding and informed decision-making
+•	Led bi-weekly synchronization meetings using Agile methods to proactively identify risks and iterate on ML project
+
+BU Spark!	Aug 2022 – Jan 2024
+Data Science Technical Project Manager	Boston, MA
+•	Led 4-8 student teams per semester for external projects relating to machine learning and data science projects
+•	Conducted daily code reviews on GitHub for teams’ work to ensure accurate data and models for stakeholders
+•	Utilized Trello to manage project development process following Agile methodologies in a weekly-cycle process
+•	Facilitated cross-functional collaboration among stakeholders, the journalism team, and the data science team to tailor data model development to specific analytical requirements for data-driven news publications
+
+Machine Learning Intern | Demo Day Audience Choice Award	Jan 2023 –May 2023
+•	Deployed face aging GAN to age missing children’s photos to match current age to aid non-profit, Atfal Mafkoda
+•	Constructed a facial recognition app to match new photos of possible missing people to a database of younger pictures
+•	Attained 75% test accuracy to match aged children's photos with recently found images of children
+
+Faculty of Computing & Data Sciences – Boston University	Jan 2022 – Jan 2024
+Data Science Tutor	Boston, MA
+•	Mentored 15+ students a week in practical data science techniques, boosting their grades by an average of 8%
+•	Collaborated weekly with professors to refine coursework, enhancing student understanding of data science concepts
+•	Led weekly office hours on topics in computer science, statistics, linear algebra, machine learning, and data science
+
+LEADERSHIP & VOLUNTEER EXPERIENCE
+Boston University Hawaii Cultural Association	Sep 2020 – Jan 2024
+President 	Boston, MA
+•	Facilitated a $15,000+ budget to organize Hawaiian cultural events to 500+ people in the Boston community
+TechTogether Boston	Jun 2022 – Nov 2022
+Programming Organizer	Boston, MA
+•	Organized 15+ hacker challenges, $10,000 in prizes, and 20+ workshops for 200+ participants during hackathons
+
+Interests: Outrigger Canoe Paddling, Hiking, TFT, Keyboards, Surfing, Soccer, Basketball, Rock Climbing, Chess
+
+SKILLS & INTERESTS
+Computer Skills: Python, GitHub, SQL, R, IBM DB2, AWS s3 bucket, Azure, C, Java, JavaScript, HTML, CSS, OCaml
+Libraries: pandas, scikit-learn, matplotlib, numpy, seaborn, TensorFlow, PyTorch, nimfa, LightGBM, BeautifulSoup
+Skills: Agile Project Management, Jira, Japanese, Data Analysis, Public Speaking, Design Thinking, Trello, Figma
+Interests: Passionate about using DS/ML to improve user experiences across various platforms, along with ESG efforts
+
+Languages: Japanese (Working Proficiency), Hawaiian Pidgin (Limited Working Proficiency)
+
+‘Iolani School	Honolulu, HI
+High School Diploma
+•	School Involvement: Headmaster’s List, Science Olympiad, Varsity Track & Field, Varsity Paddling, ‘Iolani Fair
+•	Conducted code review on GitHub for 9 student teams to maintain deliverables, visualization, and code for clients
+
+
+TechTogether Boston	Jun 2022 – Nov 2022
+Programming Organizer	Boston, MA
+•	Collaborated with Technical and Sponsorship teams to manage activities and workshops, and $10,000 in awards
+•	Developed 15+ hacker challenges and 20+ workshops for 200+ participants during hackathons
+•	Built an all-inclusive environment for under-represented communities to participate in national hackathons
+
+Coursework: Statistics, Machine Learning, Artificial Intelligence, Databases, Probability, Data Structures & Algorithms
+
+‘Iolani School Family Fair	Aug 2016 – May 2020
+Co-chair of Food Booth		Honolulu. HI
+•	Developed menus, prepared food, recruited volunteers and constructed food stations for 15 hours per week.
+•	Maintained responsibility for inventory, managing food stations, and upheld customer service
+
+
+TechTogether Boston	Jun 2022 – Nov 2022
+Programming Organizer	Boston, MA
+•	Collaborated with Technical and Sponsorship teams to manage activities and workshops, and $10,000 in awards
+•	Developed 15+ hacker challenges and 20+ workshops for 200+ participants during hackathons
+•	Built an all-inclusive environment for under-represented communities to participate in national hackathons
+
+
+Link for atfal mafkoda missing children project github repository
+https://github.com/BU-Spark/ml-atfal-mafkoda-missing-children
+
+TechTogether Boston	Jun 2022 – Nov 2022
+Programming Organizer	Boston, MA
+•	Collaborated with Technical and Sponsorship teams to manage activities and workshops, and $10,000 in awards
+•	Developed 15+ hacker challenges and 20+ workshops for 200+ participants during hackathons
+•	Built an all-inclusive environment for under-represented communities to participate in national hackathons
+
+Data Glacier	June 2022 – September 2022
+Data Science Intern	Boston, MA
+•	Produce projects focused on data analysis, machine learning, and deployment for 20 hours per week
+•	Deploy machine learning model examining effectiveness of a pharmaceutical drug on potential users
+
+Boston University, Educational Resource Center	January 2022 – January 2023
+Tutor	Boston, MA
+•	Instruct weekly 1-hour lessons to 10+ students in computer science, statistics, and mathematics
+•	Improve student grades by 15% by developing unique lesson plans tailored to fit the needs of each individual
+
+‘Iolani School Family Fair	August 2016 – August 2020
+Co-chair of Food Booth		Honolulu. HI
+•	Developed menus, prepared food, recruited volunteers, and constructed food stations for 15 hours per week.
+•	Maintained responsibility of inventory, managing food stations, and upheld customer service
+
+Hack 4 Impact	January 2022 – May 2022
+Junior Development Team	Boston, MA
+•	Developed software for non-profit organizations utilizing HTML, CSS, and JavaScript
+•	Participated in workshops aimed at advancing knowledge of computer systems and designing individual projects
+
+Atfal Mafkoda – Missing Children Face Aging Generative AI/ Facial Recognition	Jan 2023 – May 2023
+github.com/BU-Spark/ml-atfal-mafkoda-missing-children
+•	Deployed face aging GAN to age missing children’s photos to match current age to aid volunteers in search
+•	Constructed facial recognition system to match new photos of possible missing people to database of younger pictures
+
+Genki Spark	Feb 2023 – Present
+CTO & Co-Founder	Honolulu, HI
+•	Lead model development leveraging social determinants of health for to aid clinicians in preventative healthcare
+•	Oversee Engineering and Design Team on model and app development using Agile methods on a biweekly cycle
+•	Presented to stakeholders at the University of Hawaii Venture Competition during the semi-final round
+
+PROJECTS
+Atfal Mafkoda – Missing Children Face Aging Generative AI/ Facial Recognition	Jan 2023 – May 2023
+github.com/BU-Spark/ml-atfal-mafkoda-missing-children
+•	Deployed face aging GAN to age missing children’s photos to match current age to aid volunteers in search
+•	Constructed facial recognition system to match new photos of possible missing people to database of younger pictures
+
+BostonHacks – Student Performance Machine Learning Model	April 2022
+•	Built ML model using scikit-learn, implementing a decision tree model to predict students’ performance
+•	Conducted EDA on raw data set to determine variables noteworthy of having an impact on student performance
+
+
+
+IBM	May 2023 – Aug 2023
+Data Scientist Intern | 1st Place IBM CIO Intern Showcase	New York, NY
+•	Wrangled 3 billion rows of raw search log data and joined CRM data to build a search engine recommendation model
+•	Created 13 company interest profiles to boost search results based on a companies’ IBM products and search history
+•	Deployed machine learning models on IBM search engine resulting in a 4.8% improvement in search result relevance
+•	Enhanced team velocity and productivity by leveraging Jira, orchestrating weekly sprint planning for our ML solution
+
+IBM	May 2023 – Present
+Data Science Intern	New York, NY
+•	Implemented machine learning models to create a personalized user experience for IBM's search platform
+•	Conducted thorough rank-aware evaluation using NCDG metrics to quantitatively impact to stakeholders
+•	Wrangled 1.5 billion rows of raw search log data and joined multiple data sources to create user interest profiles
+•	Led weekly meetings following an Agile structure using 1 week sprints to iterate on features for project goals
+•	Worked on the data science team to create a personalized user search experience on the IBM.com search engine
+•	Implemented machine learning models to create a personalized user experience for IBM's search platform
+•	Conducted weekly meetings following an Agile framework to iteratively develop project features for our project goals
+
+IBM	May 2023 – Aug 2023
+Data Scientist Intern | 1st Place IBM CIO Intern Showcase	New York, NY
+•	Wrangled 3 billion rows of search logs and CRM data to implement improved search recommendation engine
+•	Implemented matrix factorization algorithm to create personalized search recommendations on the IBM search engine
+•	Enhanced the algorithm with a custom variant considering incorporating both long-term and short-term user search behaviors, achieving a 5% boost in search efficacy as gauged by normalized discounted cumulative gain (NDCG).
+•	Enhanced team velocity and productivity by leveraging Jira, orchestrating weekly sprint planning for our ML solution
+
+
+BU Spark!	Aug 2022 – Present
+ML Engineer & Technical Project Manager | August 2023 – Present	Boston, MA
+•	Manage 8 data science projects for 2 external projects on student academic performance and police overtime work
+•	Conduct code review on GitHub for 40+ students’ work to maintain deliverables, visualization, and code for clients
+•	Guide weekly labs and discussions using the Agile framework to iterate on stakeholders' data science projects
+
+Technical Engineer | Jan 2023 – August 2023
+•	Published 5 data-driven articles on government spending, police use-of-force data, and redlined communities
+•	Conducted code review for 15+ students’ work to maintain deliverables across 5 data science projects for clients
+•	Led students regarding design, architecture, and approach to analytical problems pertaining to clients’ questions
+
+Machine Learning Intern | Jan 2023 – May 2023
+•	Deployed face aging GAN to age missing children’s photos to match current age to aid non-profit, Atfal Mafkoda
+•	Constructed facial recognition system to match new photos of possible missing people to database of younger pictures
+•	Attained 75% accuracy by aging a photo to match a previously identified child in facial recognition testing
+
+Project Manager | Aug 2022 – Jan 2023
+•	Led problem-solving and resource management for computational journalism projects from external media partners
+•	Managed stakeholders to ensure client satisfaction with student work and provided supportive feedback to students
+•	Oversaw data science projects for 10+ stakeholders and led weekly planning to ensure quality deliverables for articles
+
+
+BU Spark!	Aug 2022 – Jan 2024
+Technical Project Manager	Boston, MA
+•	Lead 4-8 student teams a semester for external stakeholders pertaining to machine learning and data science projects
+•	Conduct code review on GitHub for 40+ students’ work to ensure accurate data and models presented to stakeholders
+•	Implemented Agile Methodology to manage data science project development life cycle, ensure on-time delivery of project and meeting quality standards.
+
+IBM experience Notes
+Numbers of how to quantify what we have done
+Skills: Github, jira, python
+Working with stakeholders, executive level stakeholders
+CIO showcase
+"Worked on an Agile team..."
+you also did your own sprint planning/ story writing while working on agile teams
+NDCG metric add the impact
+I.	Intro
+a.	Why would MIDS be a good intellectual fit?
+i.	At my internship at IBM, my manager asked me what I thought the role of a data scientist was. My answer immediately went to producing predictive models and using machine learning algorithms to help the business.  My answer only encompassed a small part of the responsibilities of a data scientist which I would soon learn from my experience there. A data scientist's job is to be able to not only create these predictive models and use these machine learning algorithms but also to provide insights for the business, while also being able to explain and present the insights in a way that would convince someone not as technically versed as a data scientist might be. Data scientists are storytellers who need to be able to not only produce but also explain the conclusions that they were able to get to. As I finish up my final semester at Boston University, I am confident that I have built a strong foundation in data science but would love to further develop my skills to include new and innovative techniques in machine learning and artificial intelligence. [School]’s data science program would help me to develop my skills as a data scientist with one of the world’s best data science faculty and programs.
+II.	Undergrad experience
+a.	Much of the coursework at Boston University allowed me to explore a wide range of data science interests.
+b.	Facial Emotion Recognition
+i.	A topic that I wanted to dive a little more into was neural networks and computer vision. With guidance from one of my AI professors, a peer and I developed a neural network to do live facial and emotion detections. This was a difficult task for us to complete especially since it was the first time developing and training a neural network model. We were able to achieve an overall accuracy of 70% for our neural network model using an existing data set with preexisting labels.
+c.	Azure Pipeline – DS310
+i.	Another topic I was interested in was data engineering and the entire process of managing and ingesting data in the ETL pipelines. Using Microsoft Azure my team and I assessed Covid-19 policies and their effectiveness on infection and death rates in parts of the USA. I led a team of six as we combined data from an on-premises SQL database, Azure SQL database, and a NoSQL database and transformed and ingested the data into PowerBI where we were able to produce insights on the Covid-19 policies.
+d.	Crypto in DS – Sustainability Incentive for BU Students
+i.	One last topic I found interest in was Cryptography and Cryptocurrency. Learning the background of how statistics and probability are such huge building blocks for cryptography was exciting to learn about through my Crypto professor and getting to learn how the algorithms to maintain secure cryptocurrency was very interesting, and I and two peers was tasked with creating a cryptocurrency incentive to help promote sustainability goals for students at Boston University. In this project, we worked on developing a cryptocurrency environment within the school that incentivized students by meeting goals and gaining this cryptocurrency that would be available for use at Boston University.
+III.	Professional Experience
+a.	BU Spark!
+i.	PM – Boston Globe, TheGrio, DIG Boston, Commonwealth Magazine,
+1.	One of the most important skills needed for a data scientist is to not just produce these results and insights, but also be able to present them. I’ve had the opportunity to work with BU Spark as a Technical Project Manager on data science projects from external organizations in the Boston Area and even in Egypt. I was responsible for managing 3 projects per semester in data science projects. I utilized an Agile methodology to manage the teams I was responsible for. Many of the projects that I was responsible for were to help publishers such as Boston Globe, TheGrio, DIG Boston, Commonwealth Magazine, CBS Boston, and USA Today produce data-driven articles. Working with these reputable sources required me to be the main point of contact between student teams and stakeholders and helped me to develop the skills needed for good communication.
+ii.	BU Athletics Department, City of Boston
+1.	I also had the chance to manage more data science projects working for the BU Athletics Department to find insights for student-athletes and look into how the department can help improve student athletes' academic performance, along with looking into the City of Boston’s Police Overtime and finding any places where budget is being wasted and how to reduce the number of extra expenses that the city of Boston is spending on police overtime. These projects required more of a technical background for me to guide the students which I was able to provide and lead them to make progress and insights for these stakeholders.
+iii.	ML Engineer – Atfal Mafkoda
+1.	With BU Spark I also had the chance to develop more of my own technical skills by working on a machine learning project for a non-profit based in Egypt, Atfal Mafkoda. We were tasked with developing a face-aging GAN to age missing children's faces to their current age to help volunteers match possible missing children to what they would look like at their current age based on old photos. Along with this, we also developed a face recognition system to help match past photos with aged photos to help volunteers in their process of finding the missing children.
+b.	IBM
+i.	At IBM, I was able to bring a lot of the coursework and work experience I had developed with BU Spark. Over the summer, my team was tasked with developing a personalized search experience on the IBM website for IBM product owners. This task was one that I had little experience with, so after some initial research and guidance from the team, we developed 2 different approaches to tackling the problem. One is a well-known algorithm, matrix factorization, along with another algorithm we developed that considered a user’s long-term history and short-term history with IBM based on a paper from Microsoft researchers. We took a look at over 4 billion rows of data from 4 different data sources within IBM to train our algorithms on, the machine learning algorithms were based on a relevance score of normalized discounted cumulative gain (NDCG) and improved the search results by 4.8%. Although producing and testing these algorithms were difficult, the team placed a huge emphasis on being able to explain these concepts to the stakeholders they want to be able to know how these results came and why it is working. We spent a large amount of time working on polishing our presentation and out of the intern cohort for our division, my team placed 1st overall with our personalized search project.
+c.	Genki Spark
+i.	I currently am working at a machine learning healthcare startup Genki Spark, where I’ve been tasked with deploying and developing a machine learning model to help assign risk scores for certain health conditions and diseases based on clinical data of the patients. From this, I’ve gotten to develop my skills in not only creating these models but also learning how to deploy models to be used in real-life settings. As of now we have focused on a few conditions to focus in on but are looking to expand which has helped in my understanding of how overall MLOps processes are structured.
+IV.	Specific Professor
+a.	Daniel Aranki – Predictive medicine ML
+b.	Sahab Aslam – Startups, Digital Health
+V.	Conclusion
+a.	Through my experiences in work and study, two insights have emerged: firstly, the applications and solutions in data are boundless; secondly, I am driven to innovatively harness this vast data growth into practical intelligence. My undergraduate degree in Data Science has laid a solid foundation in the basic techniques and applications of the field. However, [School]’s program is pivotal for honing my expertise, enabling me to make significant contributions, and helping others understand the underlying principles of data. I am eager to explore how AI and ML can revolutionize new markets while addressing social biases that obstruct access and fairness. [School]’s program is the stepping stone I need to advance my career.
+b.	The [School]'s program is designed to enhance my existing knowledge base, offering a comprehensive view of cutting-edge technologies that are key to advancing my data science career. The MIDS program at UC Berkeley is tailored for industry professionals both established and emerging, enabling me to engage with a diverse cohort of peers. This interaction will broaden my understanding of practical AI and ML applications. [Schools]’s program is backed by esteemed faculty, robust research initiatives, and pivotal industry ties. These resources are essential for me to emerge as a forward-thinking leader in the swiftly evolving data science landscape.
+ 
+Personal Background
+	Born and raised in Hawaii, I attended Iolani School for high school, and that is where I first became interested in statistics and computer science.  I knew in high school that I enjoyed math, but it was only after taking my first statistics class that I knew what I would be particularly interested in. My first computer science class was taught in Java/C, and that class got me interested in programming. My final project for that class was an online version of the board game Mastermind, and looking back it had a lot of bugs, but it was enjoyable for me to make something. In high school, I was also a part of the Varsity Outrigger Canoe paddling team, Varsity Track & Field, JV Soccer, Captain of the Science Olympiad team, and a student director for 2 years for the high school’s annual fair in the food division.
+
+	I chose to go to Boston University for statistics and computer science because I wanted to be able to go somewhere far from home to get out of my comfort zone, along with the fact that I got to visit Boston University on a school trip, and enjoyed what I learned about the school. I eventually in my junior year transferred into the newly opened undergraduate data science program because that was the type of work I wanted to do, and the coursework and teachers within the program I thought were what was best for me.
+
+UC Berkeley MIDS Program Background
+The UC Berkeley MIDS program stands out with its multidisciplinary approach, blending different areas like computer science, social sciences, statistics, management, and law. It equips students with the essential skills to analyze, interpret, and leverage big data in practical, ethical, and impactful ways. With a curriculum emphasizing research design, data cleansing, data engineering, data visualization, statistical analysis, and machine learning, the program prepares students to tackle complex and unstructured data to solve real-world challenges. The flexibility of the MIDS program accommodates working professionals through three tailored paths—accelerated, standard, and decelerated—enabling them to complete their studies within 12 to 32 months based on their personal or professional commitments.
+
+Beyond its rigorous academic framework, the MIDS program offers an immersive online learning experience that fosters meaningful connections among students and faculty. Through weekly Zoom classes, GitHub integration for coding assignments, and a mobile-friendly platform, the program ensures that students have a seamless and engaging educational journey. Additionally, an in-person immersion experience deepens these connections and provides networking opportunities with industry leaders. The program's extensive alumni network, which spans top global companies like Amazon, Apple, and Google, further highlights the value and impact of a MIDS degree. Graduates of the program are well-equipped not only with technical and analytical skills but also with the critical thinking and ethical considerations necessary for a successful career in data science, embodying the comprehensive and forward-thinking ethos of UC Berkeley's approach to education in this dynamic field.
+
+I also got the chance to talk with a couple of the UC Berkeley professors on what they think the strengths of the program are, and the one thing that stood out to me was how the student projects are run similar to a work environment where they are running weekly sprints and meeting with professors on iterating on their projects which is parallel to what was being done at IBM, and this is one of the reasons I was drawn to the program. I got the chance to also talk with some current students who told me that the program is very good for building upon foundational skills, and solidifying their foundations while being able to figure out what particular data science route they want to focus on whether it be data analytics or more machine learning.
+
+Statement of Purpose
+At my internship at IBM, my manager asked me what I thought the role of a data scientist was. My answer immediately went to producing predictive models and using machine learning algorithms to help the business.  My answer only encompassed a small part of the responsibilities of a data scientist which I would soon learn from my experience there. A data scientist's job is to be able to not only create these predictive models and use these machine learning algorithms but also to provide insights for the business, while also being able to explain and present the insights in a way that would convince someone not as technically versed as a data scientist might be. Data scientists are storytellers who need to be able to not only produce but also explain the conclusions that they were able to get to. As I finish up my final semester at Boston University, I am confident that I have built a strong foundation in data science but would love to further develop my skills to include new and innovative techniques in machine learning and artificial intelligence. UC Berkeley’s Masters in Information and Data Science program would help me to develop my skills as a data scientist with one of the world’s best data science faculty and programs.
+
+Much of the coursework at Boston University allowed me to explore a wide range of data science interests. A topic that I wanted to dive a little more into was neural networks and computer vision. With guidance from one of my AI professors, a peer and I developed a neural network to do live facial and emotion detections. This was a difficult task for us to complete especially since it was the first time developing and training a neural network model. We were able to achieve an overall accuracy of 70% for our neural network model using an existing data set with preexisting labels. A topic that I wanted to dive a little more into was neural networks and computer vision. With guidance from one of my AI professors, a peer and I developed a neural network to do live facial and emotion detections. This was a difficult task for us to complete especially since it was the first time developing and training a neural network model. We were able to achieve an overall accuracy of 70% for our neural network model using an existing data set with preexisting labels. One last topic I found interest in was Cryptography and Cryptocurrency. Learning the background of how statistics and probability are such huge building blockchains and a decentralized system for cryptography was exciting through my Cryptography professor and getting to learn how the algorithms maintain secure cryptocurrency was very interesting, I and two peers was tasked with creating a cryptocurrency incentive to help promote sustainability goals for students at Boston University. In this project, we worked on developing a cryptocurrency environment within the school that incentivized students by meeting goals and gaining this cryptocurrency that would be available for use at Boston University.
+
+One of the most important skills needed for a data scientist is to not just produce these results and insights, but also be able to present them. I’ve had the opportunity to work with BU Spark as a Technical Project Manager on data science projects from external organizations in the Boston Area and even in Egypt. I was responsible for managing 3 projects per semester in data science projects. I utilized an Agile methodology to manage the teams I was responsible for. Many of the projects that I was responsible for were to help publishers such as Boston Globe, TheGrio, DIG Boston, Commonwealth Magazine, CBS Boston, and USA Today produce data-driven articles. Working with these reputable sources required me to be the main point of contact between student teams and stakeholders and helped me to develop the skills needed for good communication. I also had the chance to manage more data science projects working for the BU Athletics Department to find insights for student-athletes and look into how the department can help improve student athletes' academic performance, along with looking into the City of Boston’s Police Overtime and finding any places where budget is being wasted and how to reduce the number of extra expenses that the city of Boston is spending on police overtime. These projects required more of a technical background for me to guide the students which I was able to provide and lead them to make progress and insights for these stakeholders. With BU Spark I also had the chance to develop more of my own technical skills by working on a machine learning project for a non-profit based in Egypt, Atfal Mafkoda. We were tasked with developing a face-aging GAN to age missing children's faces to their current age to help volunteers match possible missing children to what they would look like at their current age based on old photos. Along with this, we also developed a face recognition system to help match past photos with aged photos to help volunteers in their process of finding the missing children.
+
+	At IBM, I was able to bring a lot of the coursework and work experience I had developed with BU Spark. Over the summer, my team was tasked with developing a personalized search experience on the IBM website for IBM product owners. This task was one that I had little experience with, so after some initial research and guidance from the team, we developed 2 different approaches to tackling the problem. One is a well-known algorithm, matrix factorization, along with another algorithm we developed that considered a user’s long-term history and short-term history with IBM based on a paper from Microsoft researchers. We looked at over 3 billion rows of data from 4 different data sources within IBM to train our algorithms on, the machine learning algorithms were based on a relevance score of normalized discounted cumulative gain metric and improved the search results by 5%. Although producing and testing these algorithms were difficult, the team placed a huge emphasis on being able to explain these concepts to the stakeholders they want to be able to know how these results came and why it is working. We spent a large amount of time working on polishing our presentation and out of the intern cohort for our division, my team placed 1st overall with our personalized search project.
+
+My latest experience was working at a machine learning healthcare startup Genki Spark, where I’ve been tasked with deploying and developing a machine learning model to help assign risk scores for certain health conditions and diseases based on clinical data of the patients. From this, I’ve gotten to develop my skills in not only creating these models but also learning how to deploy models to be used in real-life settings. As of now we have focused on a few conditions to focus in on but are looking to expand which has helped in my understanding of how overall MLOps processes are structured.
+
+Through my experiences in work and study, two insights have emerged: firstly, the applications and solutions in data are boundless; secondly, I am driven to innovatively harness this vast data growth into practical applications to help people in the community. My undergraduate degree in Data Science has laid a solid foundation in the basic techniques and applications of the field. However, UC Berkeley’s program is pivotal for honing my expertise, enabling me to make significant contributions, and helping others understand the underlying principles of data.
+
+I got the chance to speak with Professor Amit Bhattacharyya and Professor Mark Butler to learn more about what sets the UC Berkeley MIDS program apart from any other programs. Two of the standout points that I got to learn were that the robust data science foundation classes, the diversity of the cohort, and the structure of projects within the classes are what make the program stand out. Within the cohort, most of the people are working professionals who have experience in the field, but this is not limited to data science jobs. Many people come from different backgrounds like marketing or business. Being able to be a part of a diverse program will allow me to be able to learn other perspectives that I might not have thought of before.
+
+One of the things I liked most was learning about the way projects are structured within the classes. The way Professor Bhattacharyya described it to me was the group projects feel just like how you would tackle a project in the workforce. Many teams will set up their projects in an agile format, and even schedule weekly meetings with the teachers to update on progress. Being in an environment where it reflects what you would be doing in the workforce is something I find value in since this is something that should help you to develop your skills for the workforce even further. Professor Butler taught me that the real strength of the MIDS program is being able to get hands-on experience while still being able to learn a huge set of tools that can be used in the field. He described that you would get out of the program what you put in. All the students in the cohort, along with the professors are willing to help and are there to teach and learn with you.
+
+Overall, UC Berkeley’s MIDS program focuses on what I want to be able to improve on going into the workforce. Being in an environment where it feels like an everyday job, along with being able to learn and get perspectives from such a diverse group of individuals is something that I think will bring value to my career as a data scientist. I am eager to explore how data science can revolutionize many of the problems we face today. UC Berkeley’s program is the stepping stone I need to advance my career. The program is designed to enhance my existing knowledge base, offering a comprehensive view of cutting-edge technologies that are key to advancing my data science career. The MIDS program at UC Berkeley is tailored for industry professionals both established and emerging, enabling me to engage with a diverse cohort of peers. This interaction will broaden my understanding of practical AI and ML applications. UC Berkeley’s program is backed by esteemed faculty and pivotal industry ties. These resources are essential for me to emerge as a forward-thinking leader in the data science landscape.
+ 
+•	Of all the things you do in your life, both in and out of school, which three do you feel you do best and why?
+o	The three things that I feel that I do best both in and out of school are caring for others whether it’s family or my surrounding community, the fact that I am self-driven, and my ability to be composed in any situation. I think I care for others a lot because I’ve always been surrounded by people and a community that has always been very supportive and helpful. Growing up in Hawaii, I’ve always had a very tight-knit family and community back home which is why I think it translated over to my community in college as well. I’ve always learned to give back to the community that has helped me, that’s why in college when I have the opportunity to volunteer at a Spark event or help with a hackathon, I always try my best to sign up because that community had helped me get to where I am today, and I feel that if I help give back to the community, I could be a part of someone else’s experience that made them more confident or feel more comfortable in a setting that may be unfamiliar to them.
+o	I would also say I’ve always been very self-driven. I think that once I set my mind on something, I can follow through very well no matter what obstacle may come in my way. Whether it be trying to prepare for an interview for a position, completing a project, or just setting a goal for myself in my personal life, I always do my best to follow through with what I want to do. For example with Spark, I was really determined to do well in the Project Manager position I was offered and I think I was able to do a good job for the position despite it being something completely new to me. Even for the Spark class, I put in a lot of effort for the Machine Learning Practicum project and was determined to make sure we did well enough to win an award at Demo Day for the Spring 2023 semester. With my interview process at IBM, I was determined to get the position and spoke to 5 different people about preparing for the position. Once I have set my mind on completing something, I do everything in my power to make sure I can follow through on that goal.
+o	Lastly, I would say that I have always been very composed. I felt that I had a lot of pressure put on me to do well in school being the eldest in my family and being put in various activities expected to do well. I was not always as composed as I am now, but I think through my experiences growing up is what helped me to be able to deal with pressures now. Whether it be with project deadlines or studying for a big test, I always can take a step back assess my situation and come up with a plan of attack to make sure I can solve whatever problem or situation I am dealing with.
+o	These three things are what I think I’m best at and help me to succeed both in and out of school.
+•	What has challenged you the most in school, and how have you dealt with or overcome this challenge?
+o	Breaking out of my comfort zone and gaining work experience.
+o	One of the things that I’ve always had problems with was stepping out of my comfort zone, and it became clear to me when entering college. During my first year of college, I stayed very reserved and kept to myself and did not branch out much from the couple of friends that I had made. Despite it also being during the pandemic in 2020, I never made the effort to try and reach out to new people to socialize, or even go to office hours to get help on homework. After my first year, I realized this and made much more of an effort during my second year to try and branch out and open up more. Having that active effort to go out of my way and step out of my comfort zone was something that I saw the results of right away. Not only did I see that my grades improved but my social life as well. This helped me to gain more confidence and start to step even more out of my comfort zone. One thing I knew I was lacking in my college experience was some professional experience. When I had found out about Spark, I knew I wanted to be able to participate in the community because of how interesting the projects were, and that it would a community that I could join and improve myself. It did come at the cost of needing to step out of my comfort zone a lot. I remember interviewing for the Data Science intern technical teammate at first, and messing up on some of the questions I should have been able to answer. I knew after that interview that I had made some mistakes but wanted to still be able to join the community somehow. That’s why when I was offered the Project Manager, I was excited to join. Not only was this position one that I was unfamiliar with, but I was going to be able to step into a new position, learn different skills and join this community at BU. The PM position from there really helped me learn to step out of my comfort zone, ask questions, and learn to communicate which has helped me to excel at other positions which I would not have been able to do without taking that step.
+•	Tell me something unique about you or your circumstance that sets you apart from your peers.
+o	I think compared to a lot of other people in the data science field at my level, I have been able to get more experience with learning stakeholder management, project management, and presentation skills while still having the technical background needed for a position like a data scientist. One of the most important things for being a data science is not just being able to build models and make visualizations, but also being able to effectively communicate these insights and conclusions that you have drawn to whatever stakeholders you are presenting to. With my PM experience with Spark, I feel like I have been able to learn how to communicate well with a wide variety of people from very technical people to people who have no idea how coding or programming works. Being able to effectively communicate is something that I feel can be underrated sometimes since most people just focus on the results themselves, but not on how to communicate in a good way what your results are. I also think that I bring a very different perspective than most by having this background. Having different perspectives on problems is something I think is also very important because if everyone is set in one way, they might not realize that there is a better or more efficient way to approach a problem. I also like to attribute my ability to having a different perspective due to how I grew up in Hawaii, which is much different than the mainland of the USA. I find that the environment growing up helped me to be able to look at different perspectives and have a better and more broad view of how to approach different problems. Having this unique way of thinking is what I think sets me apart from other peers.
+•	What would you say your greatest weakness is?
+o	I’ve always been a bit shy at times, and I’ve always known that about myself, and it’s been the hardest thing for me to improve on. I find that the only way to improve being able to speak up for myself is by forcing myself into uncomfortable situations. One of the ways that I’ve tried doing this is by volunteering to do more public speaking. Whether it be speaking in front of a crowd for a hackathon, presenting a project on stage, or emceeing for a Hawaii cultural event, I’ve always had stage fright going up to talk in front of a group of people. As I put myself in more public speaking situations, I felt myself improving in at least being able to talk but still feel nervous at times and I always notice it myself, but it may not be as obvious to the people watching. I find that with even smaller crowds, it can be more difficult for me to speak up. Since you know that everyone there has their full attention on you, I feel as if when I speak up if I say something wrong, I will be judged more. But I’ve learned that this is not the case. The first step of me being able to get over this was just asking for help in office hours and classes. Once I had become more comfortable asking questions during those, I realized it’s not as embarrassing as I put it out to be, and I’m glad that I was able to realize that. Over my time with Spark and IBM, I found myself in a lot of situations where I had no idea how to do something and I couldn’t find how to solve my problem online. Thankfully, I felt a little more comfortable being able to speak up and would be able to ask the questions I needed. I still have trouble speaking up for myself sometimes since I feel like I should know something or that it will be embarrassing, but I do think that there is no such thing as a dumb question.

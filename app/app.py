@@ -1,59 +1,29 @@
-from flask import Flask, request, render_template, session, redirect, url_for, flash
-from flask_session import Session
-from src.query import AboutMeBot
-from src.db_connect import DBConnect
-import src.fields as f
-from src.etl import ETL
+import streamlit as st
+from src.client import ChatClient
 
+st.title('about-me')
 
-app = Flask(__name__)
-app.config["SESSION_PERMANENT"] = False
-app.config['SECRET_KEY'] = f.SECRET_KEY
-app.config["SESSION_TYPE"] = "filesystem"
-Session(app)
+client = ChatClient()
 
-client = DBConnect(f.PINECONE_API_KEY)  # type: ignore
-index_name = "about-me"
-index = client.pc.Index(index_name)
+if "messages" not in st.session_state:
+    st.session_state["messages"] = []
 
-# todo implement adding new text through website
-vdb = ETL('../data/about_me.txt')
+# Sidebar for uploading new text
+new_text = st.sidebar.text_area("Add new text to the vector database")
+if new_text:
+    client.qa._add_new_docs(new_text)
 
-# Initialize chatbot here
-qa = AboutMeBot(vdb.vec_store)
+for message in st.session_state.messages:
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
 
-
-@app.route('/reset')
-def reset_session():
-    session.clear()
-    return redirect(url_for('home'))
-
-
-@app.route('/', methods=['GET', 'POST'])
-def home():
-    if 'history' not in session:
-        session['history'] = []  # Initialize an empty history
-
-    if request.method == 'POST':
-        user_query = request.form['query']  # Get the user's query from the form input
-        response = qa.query(user_query)  # Query your chatbot
-        session['history'].append({'query': user_query, 'response': response['result']})  # type: ignore
-        session.modified = True
-
-    return render_template('index.html', history=session['history'])
-
-
-@app.route('/upload-text', methods=['POST'])
-def upload_text():
-    new_text = request.form['new_text']
-    if new_text.strip():
-        qa._add_new_docs(new_text)
-        flash('New text has been added successfully.')
-    else:
-        flash('Please submit non-empty text.')
-
-    return redirect(url_for('home'))
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
+# Accept user input
+if prompt := st.chat_input("What is up?"):
+    # Add user message to chat history
+    st.session_state.messages.append({"role": "user", "content": prompt})
+    # Display user message in chat message container
+    # Display assistant response in chat message container
+    with st.chat_message("assistant"):
+        stream = client.respond(prompt)
+        response = st.write_stream(stream)
+    st.session_state.messages.append({"role": "assistant", "content": response})
