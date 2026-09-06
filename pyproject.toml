@@ -1,52 +1,55 @@
-
-[tool.poetry]
-name = "[lang-chain-vec-db]"
+[project]
+name = "lang-chain-vec-db"
 version = "0.1.0"
 description = "DS Repo Template"
-authors = ["Matt Batacan <mattbatacan@gmail.com>"]
-packages = [{include = "src"}]
+authors = [{name = "Matt Batacan", email = "mattbatacan@gmail.com"}]
+requires-python = ">=3.9.12,<3.13"
+dependencies = [
+    "flask-session>=0.6.0,<0.7.0",
+    "flask>=3.0.2,<4.0.0",
+    "gunicorn>=22.0.0",
+    "langchain-community>=0.0.38,<0.1.0",
+    "langchain-openai>=0.0.8,<0.0.9",
+    "langchain-pinecone>=0.0.3,<0.0.4",
+    "langchain-text-splitters>=0.0.1,<0.1.0",
+    "langchain>=0.1.12,<0.2.0",
+    "pinecone-client>=3.1.0,<4.0.0",
+    "python-dotenv>=1.0.1,<2.0.0",
+]
 
-[tool.poetry.dependencies]
-python = ">=3.9.12,<3.13"
-python-dotenv = "^1.0.1"
-pinecone-client = "^3.1.0"
-langchain = "^0.1.12"
-openai = "^1.14.0"
-datasets = "^2.18.0"
-transformers = "^4.38.2"
-torch = "^2.2.1"
-langchain-pinecone = "^0.0.3"
-langchain-openai = "^0.0.8"
-flask = "^3.0.2"
-flask-session = "^0.6.0"
-wandb = "^0.16.5"
-gradio = "^4.26.0"
-chromadb = "^0.4.24"
-gunicorn = "^22.0.0"
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
-[tool.poetry.dev-dependencies]
-pytest = "*"
-pytest-cov = "*"
-pre-commit = "*"
-ruff = "*"
-bandit = "*"
-black = "*"
-flake8 = "*"
-isort = "*"
-ipykernel = "*"
-mkdocs = "*"
-mkdocs-git-revision-date-plugin = "*"
-pymdown-extensions = "*"
-mkdocs-material = "*"
-mkdocs-autorefs = "*"
-types-PyYAML = "*"
-mypy = "*"
+[tool.hatch.build.targets.wheel]
+packages = [
+    "src",
+]
+
+[dependency-groups]
+dev = [
+    "bandit",
+    "black",
+    "flake8",
+    "ipykernel",
+    "isort",
+    "mkdocs",
+    "mkdocs-autorefs",
+    "mkdocs-git-revision-date-plugin",
+    "mkdocs-material",
+    "mypy",
+    "pre-commit",
+    "pymdown-extensions",
+    "pytest",
+    "pytest-cov",
+    "ruff",
+    "types-PyYAML",
+]
 
 [tool.black]
 exclude = "^tests/"
 line-length = 88
 skip-string-normalization = true
-
 [tool.ruff]
 exclude = [
     ".bzr",
@@ -72,11 +75,6 @@ exclude = [
 ]
 line-length = 88
 target-version = "py39" # Python 3.9
-
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
-
 [tool.isort]
 profile = "black"
 known_third_party = "carrot"
