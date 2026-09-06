@@ -3,7 +3,7 @@ name = "lang-chain-vec-db"
 version = "0.1.0"
 description = "DS Repo Template"
 authors = [{name = "Matt Batacan", email = "mattbatacan@gmail.com"}]
-requires-python = ">=3.9.12,<3.13"
+requires-python = ">=3.11"
 dependencies = [
     "flask-session>=0.6.0,<0.7.0",
     "flask>=3.0.2,<4.0.0",
