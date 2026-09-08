@@ -1,8 +1,30 @@
+from langchain_core.output_parsers import StrOutputParser
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.runnables import RunnablePassthrough
 from langchain_openai import ChatOpenAI
-from langchain.chains import RetrievalQA
-import src.fields as f
 from langchain_pinecone import PineconeVectorStore
 from langchain_text_splitters import CharacterTextSplitter
+
+import src.fields as f
+
+STUFF_PROMPT = ChatPromptTemplate.from_messages(
+    [
+        (
+            "system",
+            (
+                "Use the following pieces of context to answer the question at the "
+                "end. If you don't know the answer, just say that you don't know, "
+                "don't try to make up an answer.\n\n{context}"
+            ),
+        ),
+        ("human", "{question}"),
+    ]
+)
+
+
+def _format_docs(docs) -> str:
+    """Join retrieved documents into a single context string."""
+    return "\n\n".join(doc.page_content for doc in docs)
 
 
 class AboutMeBot:
@@ -28,10 +50,17 @@ class AboutMeBot:
             openai_api_key=f.OPENAI_API_KEY, model_name='gpt-3.5-turbo', temperature=0.0
         )
 
-        qa = RetrievalQA.from_chain_type(
-            llm=llm, chain_type="stuff", retriever=self.vdb.as_retriever()
+        retriever = self.vdb.as_retriever()
+        chain = (
+            {
+                "context": retriever | _format_docs,
+                "question": RunnablePassthrough(),
+            }
+            | STUFF_PROMPT
+            | llm
+            | StrOutputParser()
         )
-        return qa
+        return chain
 
     def _add_new_docs(self, text: str) -> PineconeVectorStore:
         """
@@ -47,6 +76,6 @@ class AboutMeBot:
         full_query = self.initial_prompt + " " + question
 
         # Invoke the QA chain with the full query
-        result = self.qa.invoke(full_query)
+        answer = self.qa.invoke(full_query)
 
-        return result
+        return {"query": full_query, "result": answer}

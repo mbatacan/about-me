@@ -1,7 +1,8 @@
-from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
-from langchain_community.document_loaders import TextLoader
-from langchain_text_splitters import CharacterTextSplitter
+from langchain_core.documents import Document
+from langchain_huggingface import HuggingFaceEndpointEmbeddings
 from langchain_pinecone import PineconeVectorStore
+from langchain_text_splitters import CharacterTextSplitter
+
 import src.fields as f
 
 
@@ -20,15 +21,17 @@ class ETL:
         Input - filepath:str
         Output - docs: list[Documents]
         """
-        loader = TextLoader(filepath)
-        documents = loader.load()
+        with open(filepath) as fh:
+            text = fh.read()
+        documents = [Document(page_content=text, metadata={"source": filepath})]
         text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
         docs = text_splitter.split_documents(documents)
         return docs
 
     def _embed_docs(self):
-        embeddings = HuggingFaceInferenceAPIEmbeddings(
-            api_key=f.HF_API_KEY, model_name="sentence-transformers/all-MiniLM-l6-v2"  # type: ignore
+        embeddings = HuggingFaceEndpointEmbeddings(
+            model="sentence-transformers/all-MiniLM-l6-v2",
+            huggingfacehub_api_token=f.HF_API_KEY,  # type: ignore
         )
         vec_store = PineconeVectorStore.from_documents(
             self.docs, embeddings, index_name='about-me'
